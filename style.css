@@ -1,0 +1,24 @@
+#calculator {
+    background: lightblue;
+    margin: 20vh auto;
+    padding: 40px 30px 40px 30px;
+    width: 200px;
+    text-align: center;
+}
+
+#calculator button {
+    padding: 10px;
+    width: 40px;
+    background-color: lightgrey;
+    border: 2px gray solid;
+}
+
+#calculator button:hover {
+    transform: scale(1.1);
+}
+
+#calculator input[type="text"] {
+    padding: 10px;
+    width: 147px;
+    margin: 5px 0;
+}

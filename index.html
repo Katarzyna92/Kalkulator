@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Kalkulator</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <form id="calculator">
+        <input type="text" id="number1" placeholder="number">
+        <input type="text" id="number2" placeholder="number">
+
+        <button type="button" onclick="count(this.innerHTML)">+</button>
+        <button type="button" onclick="count(this.innerHTML)">-</button>
+        <button type="button" onclick="count(this.innerHTML)">x</button>
+        <button type="button" onclick="count(this.innerHTML)">/</button>
+
+        <input type="text" id="result" placeholder="=" disabled="disabled">
+    </form>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
